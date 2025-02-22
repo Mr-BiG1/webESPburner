@@ -1,0 +1,20 @@
+{
+  "name": "esptool",
+  "version": "1.0.0",
+  "description": "web based esp tool ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darsan sabu george",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "esptool-js": "^0.5.4",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.1.9"
+  }
+}
