@@ -3,7 +3,6 @@ const expressLayout = require('express-ejs-layouts');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const path = require("path");
-const { connectDB, sequelize } = require('./server/config/dbconnection');
 // loading the env variables
 dotenv.config();
 const port = process.env.PORT || 9090;

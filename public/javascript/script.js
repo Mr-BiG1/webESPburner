@@ -6,9 +6,11 @@ async function connectESP() {
     try {
         port = await navigator.serial.requestPort();
         await port.open({ baudRate: 115200 });
+        console.log("esp connecting ");
         writer = port.writable.getWriter();
         reader = port.readable.getReader();
         logMessage("Connected to ESP");
+
     } catch (error) {
         logMessage("Connection failed: " + error.message);
     }
